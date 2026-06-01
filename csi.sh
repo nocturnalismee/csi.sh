@@ -10,10 +10,8 @@ set -euo pipefail  # Fail-fast: exit on error, undefined var, pipe failure
 
 # --- KONFIGURASI ---
 readonly EMAIL_TO="email@email.co.id"
-readonly HOSTNAME
-HOSTNAME=$(hostname)
-readonly DATE
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
+readonly HOSTNAME=$(hostname)
+readonly DATE=$(date '+%Y-%m-%d %H:%M:%S')
 readonly CSI_DIR="/root/CSI" # Direktori default csi.p dari pihak cPanel.
 readonly CSI_SUMMARY="${CSI_DIR}/summary.txt"
 readonly CSI_LOG="${CSI_DIR}/csi.log"
