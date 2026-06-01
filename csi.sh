@@ -5,6 +5,7 @@
 # SOURCE RISET :
 #  - https://github.com/CpanelInc/tech-CSI
 #  - https://docs.cpanel.net/knowledge-base/security/determine-your-system-status/
+#  - https://support.cpanel.net/hc/en-us/articles/4414068220183-Using-cPanel-s-malware-scanner-CSI-script
 
 set -euo pipefail  # Fail-fast: exit on error, undefined var, pipe failure
 
